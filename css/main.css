@@ -1,0 +1,147 @@
+@import url(typography.css);
+@import url(navigation.css);
+@import url(forms.css);
+
+* { margin: 0; padding: 0; }
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.screen-reader-text,
+.menu-toggle,
+.skip-link {
+	display: none;
+}
+
+body {
+	background: #FFF;
+	background: fixed;
+}
+
+a { color: black; }
+a:hover {
+	color: #01b6ad;
+}
+
+.site-header, .site-content {
+	background: #E2E2E2;
+}
+
+.site {
+	width: 80%;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.site-header {
+	padding: 20px; margin-bottom: 20px;
+}
+
+.site-footer {
+	padding: 20px; margin-top: 20px;
+}
+
+.site-content, #main {
+	overflow: hidden;
+}
+
+#primary, #secondary {
+	padding: 20px;
+	float: left;
+}
+
+#primary {
+	width: 70%;
+}
+
+#secondary {
+	width: 30%;
+}
+
+.widget {
+	padding-bottom: 1em;
+}
+
+.sticky,
+.gallery-caption {
+	display: block;
+}
+.bypostauthor .comment-content p {
+    color: #2d2824;
+}
+
+.bypostauthor > .comment-body {
+	display: block;
+    position: relative;
+    padding: 1em;
+    margin-bottom: 2em;
+    background: #d6cebf;
+    border-bottom: 1px solid #e3dfd2;
+    font-size:110%;
+    border-radius: 5px;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+}
+
+.site-content,
+.site-footer,
+.comments-area,
+.post-navigation,
+.hentry + .hentry { border-top: solid 1px #CCC; padding-top: 2em; margin-top: 2em; }
+
+.hentry .entry-meta { padding-bottom: 0.5em; font-style: italic; color: #999; }
+.hentry .entry-meta { color: #999; }
+.hentry .entry-meta a { color: #666; }
+.hentry .entry-meta:hover { color: #666; }
+.hentry .entry-meta:hover a { color: black; }
+
+.post-navigation {
+}
+
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+	background: #d6cebf;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin: 0 auto;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+.wp-caption-text {
+	text-align: center;
+}
+
+.wp-caption .wp-caption-text {
+    padding: 1em;
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-family: 'Cuprum', sans-serif;
+}
+
+.site-footer {
+	background: #E2E2E2;
+}
+
+.site-info p {
+	text-align: center;
+	color: yellow;
+	font-size: 15px;
+}
+
+.site-info a {
+	color: #222222;
+}
