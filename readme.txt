@@ -22,7 +22,13 @@ Jelly includes support for Infinite Scroll in Jetpack.
 * fixed custom-header.php
 * Added new header images : Image credits from Unsplash.com 
 
+= 1.0.3 - October 12 2015 =
+* Remove @import files from main.css 
+* Change hover color in form submit
+
+
 == Credits ==
 
 * Based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 * normalize.css http://necolas.github.io/normalize.css/, (C) 2012-2015 Nicolas Gallagher and Jonathan Neal, [MIT](http://opensource.org/licenses/MIT)
+* Using images from Unsplash.com

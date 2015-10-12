@@ -15,7 +15,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-				<p><a href="http://wordpress.org">Copyright © 2015 Your Name. All rights reserved.</a></p>
+				<p><a href="http://wordpress.org">PROUDLY POWERED BY WORDPRESS</a></p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

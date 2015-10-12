@@ -1,12 +1,12 @@
 <?php
 /**
- * Implement a custom header for jelly
+ * Implement a custom header for Twenty Thirteen
  *
  * @link https://codex.wordpress.org/Custom_Headers
  *
- * @package jelly
- * @subpackage jelly
- * @since jelly 1.0.0.1
+ * @package WordPress
+ * @subpackage Twenty_Thirteen
+ * @since Twenty Thirteen 1.0
  */
 
 /**
@@ -18,7 +18,7 @@
  * @uses jelly_admin_header_image() to add custom markup to wp-admin form.
  * @uses register_default_headers() to set up the bundled header images.
  *
- * @since jelly 1.0.0.1
+ * @since Twenty Thirteen 1.0
  */
 function jelly_custom_header_setup() {
 	$args = array(
@@ -65,7 +65,7 @@ add_action( 'after_setup_theme', 'jelly_custom_header_setup', 11 );
 /**
  * Load our special font CSS files.
  *
- * @since jelly 1.0.0
+ * @since Twenty Thirteen 1.0
  */
 function jelly_custom_header_fonts() {
 	// Add Source Sans Pro and Bitter fonts.
@@ -81,7 +81,7 @@ add_action( 'admin_print_styles-appearance_page_custom-header', 'jelly_custom_he
  *
  * get_header_textcolor() options: Hide text (returns 'blank'), or any hex value.
  *
- * @since jelly 1.0.0
+ * @since Twenty Thirteen 1.0
  */
 function jelly_header_style() {
 	$header_image = get_header_image();
@@ -147,7 +147,7 @@ function jelly_header_style() {
 /**
  * Style the header image displayed on the Appearance > Header admin panel.
  *
- * @since jelly 1.0.0
+ * @since Twenty Thirteen 1.0
  */
 function jelly_admin_header_style() {
 	$header_image = get_header_image();
@@ -213,7 +213,7 @@ function jelly_admin_header_style() {
  *
  * This callback overrides the default markup displayed there.
  *
- * @since jelly 1.0.0
+ * @since Twenty Thirteen 1.0
  */
 function jelly_admin_header_image() {
 	$style = 'color: #' . get_header_textcolor() . ';';
