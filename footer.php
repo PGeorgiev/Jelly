@@ -15,7 +15,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-				<p><a href="http://wordpress.org">PROUDLY POWERED BY WORDPRESS</a></p>
+				<p><?php _e( 'WordPress Theme: Jelly', 'jelly' ); ?></p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

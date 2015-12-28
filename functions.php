@@ -110,21 +110,6 @@ function jelly_widgets_init() {
 }
 add_action( 'widgets_init', 'jelly_widgets_init' );
 
-/** Added  add_theme_support( 'post-thumbnails' ); */
- add_theme_support( 'post-thumbnails' );
-add_image_size('large-thumb',840,650, true);
-add_image_size('index-thumb',840,250, true);
-the_post_thumbnail();                  // without parameter -&gt; 'post-thumbnail'
-  
-the_post_thumbnail( 'thumbnail' );       // Thumbnail (default 150px x 150px max)
-the_post_thumbnail( 'medium' );          // Medium resolution (default 300px x 300px max)
-the_post_thumbnail( 'large' );           // Large resolution (default 640px x 640px max)
-the_post_thumbnail( 'full' );            // Full resolution (original size uploaded)
-  
-the_post_thumbnail( array(100, 100) );  // Other resolutions
-
-/* Editor Style */
-add_editor_style( array( 'custom-editor-style.css' ) );
 
 /**
  * Enqueue scripts and styles.

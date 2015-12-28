@@ -26,7 +26,33 @@ Jelly includes support for Infinite Scroll in Jetpack.
 * Remove @import files from main.css 
 * Change hover color in form submit
 
+= 1.0.4 - November 5 2015
+* Edited footer link
 
+= 1.0.5 - December 19 2015
+* Edited Theme URI
+* Removed loaded font
+* Fixed License 
+* Language folder removed - note: the next update will be translated
+* Removed line 117 - 124 in functions.php
+* Removed files - README.md, rtl.css, layouts folder
+* Added Images link Credits - http://unsplash.com/
+* https://unsplash.com/photos/6LkxufmApSk
+* https://unsplash.com/photos/Dd_7xDCuuUo
+* https://unsplash.com/photos/X0OoHrPvgXE
+
+= 1.0.6 - December 21 2015
+* Removed hidded file .db
+* Removed comment in L113
+* Added jelly-large-thumb
+* Removed <a> tag in footer.php L18
+
+= 1.0.7 - December 21 2015
+* Removed photothumb.db inside images/headers.
+* Removed image size large/index - working excellent.
+* Fixed footer.php L18
+
+ 
 == Credits ==
 
 * Based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
