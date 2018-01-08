@@ -385,3 +385,25 @@ img {
 .site-info a {
 	color: #222222;
 }
+
+/* After update */
+.comments-link {
+    margin: 6px;
+}
+
+.entry-header {
+    text-decoration: underline;
+}
+
+.widget-title {
+    border-bottom: 1px solid black; 
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    background: #161616;
+    color: #fff;
+    font-size: 11px;
+    padding: 13px 0;
+    position: relative;
+    margin-bottom: 20px;
+}

@@ -52,6 +52,10 @@ Jelly includes support for Infinite Scroll in Jetpack.
 * Removed image size large/index - working excellent.
 * Fixed footer.php L18
 
+= 1.0.8 - January 8 2018
+* Fixed - Comments-link /Comments and EDIT/
+* Added widget-title style 
+
  
 == Credits ==
 
