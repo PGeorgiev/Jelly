@@ -174,7 +174,7 @@ nav div ul li a {
 nav div ul li a:hover {
     background: #030;
 }
-
+/* Search form */
 form {
     border: 1px solid #CCC;
     padding: 2em;
@@ -183,12 +183,9 @@ form input,
 form textarea,
 form select,
 form label {
-    display: block;
     width: 230px;
 }
-form label {
-    font-weight: bold;
-}
+
 form input,
 form textarea {
     border: 1px solid #CCC;
@@ -196,11 +193,8 @@ form textarea {
     border-radius: 4px;
     padding: 0.2em 0.5em;
 }
-form input:focus,
-form input:focus + .error,
-form textarea:focus + .error {
-    display: none;
-}
+
+
 #submit {
     display: block;
     background: #01B6AD;
@@ -303,8 +297,19 @@ th {
 	width: 30%;
 }
 
-.widget {
-	padding-bottom: 1em;
+ .widget {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+    margin-bottom: 48px;
+    margin-bottom: 3.428571429rem;
+    word-wrap: break-word;
+    background: #fff;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, .16);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding: 0px;
+    border: 1px solid rgb(179, 179, 179);
 }
 
 .sticky,
@@ -386,6 +391,7 @@ img {
 	color: #222222;
 }
 
+
 /* After update */
 .comments-link {
     margin: 6px;
@@ -406,4 +412,35 @@ img {
     padding: 13px 0;
     position: relative;
     margin-bottom: 20px;
+}
+
+
+
+.search-submit {
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 100px;
+}
+
+.search-submit:hover {
+    color: #FFF;
+    background: #000000;
+    cursor: pointer;
+}
+
+#submit {
+    background-color: #000000;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    opacity: .8;
 }
