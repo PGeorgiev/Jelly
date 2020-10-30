@@ -31,7 +31,7 @@ Jelly includes support for Infinite Scroll in Jetpack.
 
 = 1.0.1 - October 4 2015 =
 * fixed custom-header.php
-* Added new header images : Image credits from Unsplash.com
+
 
 = 1.0.3 - October 12 2015 =
 * Remove @import files from main.css
@@ -76,7 +76,6 @@ Jelly includes support for Infinite Scroll in Jetpack.
 * Added Requires PHP 
 * Fixed body_open 
 * Removed unused images and background image function
-* Removed Unsplash images and credits
 * Added new images and credits from stocksnap.io
 * Screenshot credits - https://stocksnap.io/photo/mountain-valley-PINKVDZ9HJ
 
