@@ -48,16 +48,6 @@ function jelly_custom_header_setup() {
 			'thumbnail_url' => '%s/images/headers/circle-thumbnail.png',
 			'description'   => _x( 'Circle', 'header image description', 'jelly' )
 		),
-		'diamond' => array(
-			'url'           => '%s/images/headers/diamond.png',
-			'thumbnail_url' => '%s/images/headers/diamond-thumbnail.png',
-			'description'   => _x( 'Diamond', 'header image description', 'jelly' )
-		),
-		'star' => array(
-			'url'           => '%s/images/headers/star.png',
-			'thumbnail_url' => '%s/images/headers/star-thumbnail.png',
-			'description'   => _x( 'Star', 'header image description', 'jelly' )
-		),
 	) );
 }
 add_action( 'after_setup_theme', 'jelly_custom_header_setup', 11 );
