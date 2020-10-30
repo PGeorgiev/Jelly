@@ -23,8 +23,8 @@
 function jelly_custom_header_setup() {
 	$args = array(
 		// Text color and image (empty to use none).
-		'default-text-color'     => '220e10',
-		'default-image'          => '%s/images/headers/circle.png',
+		'default-text-color'     => '#220e10',
+		'default-image'          => '%s/images/headers/circle.jpg',
 
 		// Set height and width, with a maximum value for the width.
 		'height'                 => 230,
@@ -44,8 +44,8 @@ function jelly_custom_header_setup() {
 	 */
 	register_default_headers( array(
 		'circle' => array(
-			'url'           => '%s/images/headers/circle.png',
-			'thumbnail_url' => '%s/images/headers/circle-thumbnail.png',
+			'url'           => '%s/images/headers/circle.jpg',
+			'thumbnail_url' => '%s/images/headers/circle-thumbnail.jpg',
 			'description'   => _x( 'Circle', 'header image description', 'jelly' )
 		),
 	) );
