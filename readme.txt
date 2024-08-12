@@ -3,7 +3,7 @@ Contributors: pgeorgiev
 Tags:  right-sidebar, two-columns, custom-background
 
 Requires at least: 4.7
-Tested up to: 6.3
+Tested up to: 6.6
 Stable tag: 1.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -82,9 +82,10 @@ Jelly includes support for Infinite Scroll in Jetpack.
 = 1.1.3 - December 7 2021
 * Updated tested up version
 
-= 1.1.4 - September 11 2023
+= 1.1.4 - 
 * Updated tested up version
 * Update required PHP version
+* Update Theme URI
 == Credits ==
 
 * Based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
